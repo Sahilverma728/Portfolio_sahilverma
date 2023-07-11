@@ -79,20 +79,6 @@ section {
     align-items: center;
 }
 
-.home-content {
-    /* display: flex; */
-    /* justify-content: left; */
-}
-
-/* .verticleLine {
-    margin-top: 1%;
-    margin-left: -42%;
-    border-left: 2px solid rgb(255, 255, 255);
-    height: 427px;
-    position: absolute;
-    left: 50%;
-} */
-
 .home-img img {
     display: block;
     width: 25vw;
@@ -185,6 +171,13 @@ span {
     width: 44vw;
 }
 
+.edu-img img {
+    width: 30vw;
+    border-radius: 50px;
+    filter: drop-shadow(0 0 2rem #1f242d);
+
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -212,4 +205,8 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+}
+
+hr {
+    height: 5px;
 }
